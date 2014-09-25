@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "AdvancedHelloWorldApp",
+  "description": "This is a slightly complex Hello World App",
+  "version": "1.0",
+  
+  "background": {
+    "persistent": true,
+    "scripts": ["TabBackGround.js"]
+  },
+  
+   "permissions": ["tabs", "background"],
+   
+   "browser_action": {
+    "default_title": "This App will demo background work : Which will invoke event on tab close and open",
+    "default_icon": "hello.png"
+  }
+  		
+}
